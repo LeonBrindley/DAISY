@@ -4,6 +4,7 @@
 #include "Camera.h"
 #include "SDCard.h"
 #include "GPS.h"
+#include "Accelerometer.h"
 #include <Arduino.h>
 
 // Define
