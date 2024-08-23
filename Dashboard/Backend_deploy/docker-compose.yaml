@@ -1,0 +1,46 @@
+version: "3.7"
+
+services:
+  app:
+    build:
+      context: ./
+    command: uvicorn app.main:app --reload --host 0.0.0.0 --port 8080
+    environment:
+      - ENVIRONMENT=test
+      - PYTHONUNBUFFERED=1
+      - DEBUG=1
+      - PORT=8080
+      - AWS_ACCESS_KEY_ID=AKIAZI2LBYEBCNVSRWM2
+      - AWS_SECRET_ACCESS_KEY=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
+      - MINIO_ENDPOINT=http://minio:9000
+      - MINIO_ACCESS_KEY=admin
+      - MINIO_SECRET_KEY=password
+    expose:
+      - 8080
+    ports:
+      - 8080:8080
+    volumes:
+      - ./:/app
+
+  inference_service:
+    build:
+      context: ./
+    command: uvicorn inference_service.main:app --reload --host 0.0.0.0 --port 8081
+    environment:
+      - ENVIRONMENT=test
+      - PYTHONUNBUFFERED=1
+      - DEBUG=1
+      - PORT=8081
+      - AWS_ACCESS_KEY_ID=AKIAZI2LBYEBCNVSRWM2
+      - AWS_SECRET_ACCESS_KEY=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
+      - DYNAMODB_ENDPOINT=https://dynamodb.eu-north-1.amazonaws.com
+
+    expose:
+      - 8081
+    ports:
+      - 8081:8081
+    volumes:
+      - ./:/app
+
+volumes:
+  minio-data:
