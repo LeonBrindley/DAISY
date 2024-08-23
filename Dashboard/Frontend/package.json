@@ -1,9 +1,0 @@
-{
-  "dependencies": {
-    "@arcgis/core": "^4.30.9",
-    "axios": "^1.7.2"
-  },
-  "devDependencies": {
-    "openapi-typescript-codegen": "^0.29.0"
-  }
-}
