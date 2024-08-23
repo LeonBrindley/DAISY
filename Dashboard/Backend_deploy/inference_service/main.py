@@ -47,9 +47,9 @@ origins = [
 
 
 config = {
-    "AWS_ACCESS_KEY_ID": 'AKIAZI2LBYEBCNVSRWM2',
-    "AWS_SECRET_ACCESS_KEY": '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',
-    "AWS_REGION": 'eu-north-1'
+    "AWS_ACCESS_KEY_ID": '',
+    "AWS_SECRET_ACCESS_KEY": '',
+    "AWS_REGION": '',
 }
 
 try:
