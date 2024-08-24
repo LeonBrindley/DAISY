@@ -12,9 +12,13 @@ To compile our code, please include the following libraries through the Arduino 
 
 ## Dataset
 
-The labelled datasets can be found in `Dataset/CSV`. The raw JPEG files of the image fragments used in the dataset can be downloaded [here](https://sensor-cdt-group-project.s3.eu-north-1.amazonaws.com/data.zip).
+All dataset-related scripts and data can be found in the `Dataset` directory.
+
+The raw JPEG files of the image fragments used in the dataset can be downloaded [here](https://sensor-cdt-group-project.s3.eu-north-1.amazonaws.com/data.zip).
 
 ## ML Models
+
+The ML model implementation, experiment scripts, notebooks and HPC configurations can be found in the `Model` directory.
 
 You can download the weights (`model.pth` file) for our best ML models using the links below.
 
