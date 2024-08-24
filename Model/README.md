@@ -8,5 +8,4 @@ Directories:
 
 * `Impl` - Final implementation of models and Python scripts to train, validate models and perform inference
 * `Jupyter_Notebooks` -  Experimental Python Jupyter Notebooks used during development
-* `Labelling` - Utilities for labelling
 * `HPC` - HPC scripts and SLURM jobs for ML model experiments
