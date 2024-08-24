@@ -19,7 +19,7 @@ The labelled datasets can be found in `Dataset/CSV`. The raw JPEG files of the i
 You can download the weights (`model.pth` file) for our best ML models using the links below.
 
 * Best individual models: [iNaturalist](https://sensor-cdt-group-project.s3.eu-north-1.amazonaws.com/best_models/best_indiv/f1/inaturalist_uf5_pFalse_dp0.1_wd1e-05_lr0.0001/model.pth), [DenseNet121](https://sensor-cdt-group-project.s3.eu-north-1.amazonaws.com/best_models/best_indiv/keras_acc/densenet121_uf7_pTrue_dp0.3_wd1e-05_lr0.0001/model.pth)
-* [Best ensemble model](s3://sensor-cdt-group-project/best_models/best_ensemble/f1/ensemble_nm5_s2_dp0.3_wd0.01_lr0.001/model.pth)
+* [Best ensemble model](https://sensor-cdt-group-project.s3.eu-north-1.amazonaws.com/best_models/best_ensemble/f1/ensemble_nm5_s2_dp0.3_wd0.01_lr0.001/model.pth)
 
 ## More Information
 To find out more about this project, please visit our website ([daisysensing.com](https://daisysensing.com)) or Instagram profile ([instagram.com/daisysensing](https://www.instagram.com/daisysensing)).
