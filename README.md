@@ -1,7 +1,20 @@
 # DAISY
-Welcome to the Git repository for the Sensor CDT's 2024 Team Challenge: Automated Vegetation Monitoring Using Animal-Mounted Sensors. 
 
-## Required Arduino Libraries
+Welcome to the Git repository for the Sensor CDT's 2024 Team Challenge: Automated Vegetation Monitoring Using Animal-Mounted Sensors.
+
+## Hardware
+
+You can find out about each component used in D**AI**SY via the links below.
+
+- [Seeed Studio XIAO ESP32S3 Sense + Expansion Board](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started)
+- [OmniVision OV5640 CMOS Image Sensor](https://cdn.sparkfun.com/datasheets/Sensors/LightImaging/OV5640_datasheet.pdf)
+- [SanDisk 32GB High-Endurance microSD Card](https://documents.westerndigital.com/content/dam/doc-library/en_us/assets/public/sandisk/product/memory-cards/high-endurance-uhs-i-microsd/data-sheet-high-endurance-uhs-i-microsd.pdf)
+- [JLCPCB Flexible Printed Circuit Board](https://jlcpcb.com/capabilities/flex-pcb-capabilities)
+- [RS PRO 18650 Lithium-Ion Rechargeable Batteries](https://docs.rs-online.com/9c01/A700000008874176.pdf)
+- [Kvikk Durable Collar for Cattle](https://www.shearwell.co.uk/collars-for-cattle)
+
+## Arduino Libraries
+
 To compile our code, please include the following libraries through the Arduino IDE's Library Manager. Furthermore, the board should be set to **XIAO_ESP32S3**, the correct COM port must be selected and [Espressif's ESP32 board package](https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json) should be installed under File->Preferences.
 
 - [SD](https://www.arduino.cc/reference/en/libraries/sd)
@@ -26,4 +39,5 @@ You can download the weights (`model.pth` file) for our best ML models using the
 * [Best ensemble model](https://sensor-cdt-group-project.s3.eu-north-1.amazonaws.com/best_models/best_ensemble/f1/ensemble_nm5_s2_dp0.3_wd0.01_lr0.001/model.pth)
 
 ## More Information
+
 To find out more about this project, please visit our website ([daisysensing.com](https://daisysensing.com)) or Instagram profile ([instagram.com/daisysensing](https://www.instagram.com/daisysensing)).
